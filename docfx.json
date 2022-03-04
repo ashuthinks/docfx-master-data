@@ -1,11 +1,12 @@
+
 {
   "metadata": [
     {
       "src": [
         {
-          "files": [ "**/*.sln", "src/DotnetNew/*.csproj" ],
+          "files": [ "https://github.com/ashuthinks/docfx-master-data/blob/master/src/SampleClass1/SampleClass1.sln", "https://github.com/ashuthinks/docfx-master-data/blob/master/src/DotnetNew/DotnetNew.csproj" ],
           "exclude": [ "**/bin/**", "**/obj/**" ],
-          "src": "src"
+          "src": "https://github.com/ashuthinks/docfx-master-data/tree/master/src"
         }
       ],
       "dest": "obj/api"
@@ -14,20 +15,20 @@
   "build": {
     "content": [
       {
-        "files": [ "**/*.yml" ],
-        "src": "obj/api",
-        "dest": "api"
+        "files": [ "https://github.com/ashuthinks/docfx-master-data/*.yml" ],
+        "src": "https://github.com/ashuthinks/docfx-master-data/obj/api",
+        "dest": "https://github.com/ashuthinks/docfx-master-data/api"
       },
       {
-        "files": [ "articles/**/*.md", "*.md", "toc.yml", "restapi/**" ]
+        "files": [ "https://github.com/ashuthinks/docfx-master-data/tree/master/articles/**/*.md", "*.md", "toc.yml", "https://github.com/ashuthinks/docfx-master-data/tree/master/restapi/**" ]
       }
     ],
     "resource": [
       {
-        "files": [ "articles/images/**"]
+        "files": [ "https://github.com/ashuthinks/docfx-master-data/tree/master/articles/images/**"]
       }
     ],
-    "overwrite": "specs/*.md",
+    "overwrite": "https://github.com/ashuthinks/docfx-master-data/tree/master/specs/*.md",
     "globalMetadata": {
       "_appTitle": "docfx seed website",
       "_enableSearch": true
