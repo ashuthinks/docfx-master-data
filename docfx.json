@@ -9,7 +9,7 @@
           "src": "https://github.com/ashuthinks/docfx-master-data/tree/master/src"
         }
       ],
-      "dest": "obj/api"
+      "dest": "https://github.com/ashuthinks/docfx-master-data/obj/api"
     }
   ],
   "build": {
@@ -20,7 +20,7 @@
         "dest": "https://github.com/ashuthinks/docfx-master-data/api"
       },
       {
-        "files": [ "https://github.com/ashuthinks/docfx-master-data/tree/master/articles/**/*.md", "*.md", "toc.yml", "https://github.com/ashuthinks/docfx-master-data/tree/master/restapi/**" ]
+        "files": [ "https://github.com/ashuthinks/docfx-master-data/tree/master/articles/**/*.md", "https://github.com/ashuthinks/docfx-master-data/blob/master/*.md", "https://github.com/ashuthinks/docfx-master-data/blob/master/toc.yml", "https://github.com/ashuthinks/docfx-master-data/tree/master/restapi/**" ]
       }
     ],
     "resource": [
